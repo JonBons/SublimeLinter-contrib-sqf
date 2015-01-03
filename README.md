@@ -3,13 +3,13 @@ SublimeLinter-contrib-sqf
 
 Forked from [SublimeLinter-contrib-glua](https://github.com/gmodcoders/SublimeLinter-contrib-glua)
 
-This linter plugin for [SublimeLinter](http://sublimelinter.readthedocs.org) provides an interface to [sqfc -p](https://github.com/cartman300/gluac). It will be used with files that have the “SQF” syntax.
+This linter plugin for [SublimeLinter](http://sublimelinter.readthedocs.org) provides an interface to [sqfc -p](https://github.com/JonBons/sqfc). It will be used with files that have the “SQF” syntax.
 
 ## Installation
 SublimeLinter 3 must be installed in order to use this plugin. If SublimeLinter 3 is not installed, please follow the instructions [here](http://sublimelinter.readthedocs.org/en/latest/installation.html).
 
 ### Linter installation
-Before using this plugin, you must ensure that `sqfc` is installed on your system. The `sqfc` executable can be found on its [repository releases page](https://github.com/cartman300/gluac/releases). You must also ensure that `sqfc` is in your system PATH. If you're unfamiliar with this process, here's a [tutorial for various versions of Windows](http://www.computerhope.com/issues/ch000549.htm).
+Before using this plugin, you must ensure that `sqfc` is installed on your system. The `sqfc` executable can be found on its [repository releases page](https://github.com/JonBons/sqfc/releases). You must also ensure that `sqfc` is in your system PATH. If you're unfamiliar with this process, here's a [tutorial for various versions of Windows](http://www.computerhope.com/issues/ch000549.htm).
 
 ### Linter configuration
 In order for `gluac` to be executed by SublimeLinter, you must ensure that its path is available to SublimeLinter. Before going any further, please read and follow the steps in [“Finding a linter executable”](http://sublimelinter.readthedocs.org/en/latest/troubleshooting.html#finding-a-linter-executable) through “Validating your PATH” in the documentation.
