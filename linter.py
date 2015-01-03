@@ -20,5 +20,5 @@ class SQF(Linter):
 
     syntax = 'sqf'
     cmd = 'sqfc -p * -'
-    regex = r'^.+?:.+?:(?P<line>\d+): (?P<message>.+?(?:near (?P<near>\'.+\')|$))'
+    regex = r'^.+?:.+?:(?P<line>\d+):(?P<col>\d+): (?P<message>.+?(?:near (?P<near>\'.+\')|$))'
     error_stream = util.STREAM_STDOUT

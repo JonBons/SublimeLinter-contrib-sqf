@@ -1,6 +1,6 @@
 SublimeLinter-contrib-glua
 -------------------------------
-This linter plugin for SublimeLinter provides an interface to gluac.
+This linter plugin for SublimeLinter provides an interface to sqfc.
 
 ** IMPORTANT! **
 
